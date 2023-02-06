@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.con{
+  background-color: #2e2f33;
+  color: white;
+
+}
+.bb {
+  
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  border: solid #94dcf2;
+
+}
+.href{
+  text-decoration: none;
+  color: white;
+  
+}
+.hreff{
+  text-decoration: none;
+  color: black;
+  text-align:center ;
+}
