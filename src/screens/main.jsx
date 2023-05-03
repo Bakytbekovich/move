@@ -45,7 +45,7 @@ function Main() {
                         {products.map((item) =>
                             <>
                             
-                            <div className='col-3'>
+                            <div className='col-lg-3'>
                             <div className="card bg-dark text-white text-center">                                                                                                
                                 <img  width="100%" height="300px" src={"https://www.themoviedb.org/t/p/w600_and_h900_bestv2"+item.poster_path} /> 
                                <h5><a className='href'  href={"/detail/"+item.id}>{item.title}</a> </h5>

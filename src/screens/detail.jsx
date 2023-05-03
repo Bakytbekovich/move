@@ -86,7 +86,7 @@ function Detail() {
 
 
 
-                    <div className='col-8'>
+                    <div className='col-lg-8'>
                         {detail != null ?
                             <>
 
@@ -94,7 +94,7 @@ function Detail() {
                                 <div className='row'>
 
 
-                                    <div className='col-6 mt-2'>
+                                    <div className='col-lg-6 mt-2'>
                                         <img width="100%" height="500px" src={"https://www.themoviedb.org/t/p/w600_and_h900_bestv2" + detail.poster_path} />
                                     </div>
                                     <div className='col-6'>
@@ -106,7 +106,7 @@ function Detail() {
                                         <p>{detail.popularity}</p>
                                         <p>Дата выхода{detail.release_date}</p>
                                     </div>
-                                    <div className='col-12 mt-4'>
+                                    <div className='col-lg-12 mt-4'>
                                         {video.length > 0 ?
                                             <>
                                                 <></>
